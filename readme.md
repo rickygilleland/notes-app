@@ -11,7 +11,7 @@ This is a notes app that lets you view a list of notes, edit a note, and delete 
 This notes app uses the Laravel PHP framework for the backend API and React for the frontend. You will need the composer package manager, npm, git, PHP version 7.1.3 or newer and sqlite3 installed on your machine to run this project.
 
 ## How to Run
-To run the notes app, first install all of the application's dependencies with the following command:
+To run the notes app, make sure you're in the application's root directory, then install all of the application's dependencies with the following command:
 
 `composer install && npm install`
 
