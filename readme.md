@@ -7,7 +7,7 @@ This is a notes app that lets you view a list of notes, edit a note, and delete 
 - `PUT /note/:id`: Update an existing note.
 - `DELETE /note/:id`: Delete an existing note.
 
-## Pre-requisites
+## Prerequisites
 This notes app uses the Laravel PHP framework for the backend API and React for the frontend. You will need the composer package manager, npm, git, PHP version 7.1.3 or newer and sqlite3 installed on your machine to run this project.
 
 ## How to Run
