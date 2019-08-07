@@ -12,7 +12,9 @@ This notes app uses the Laravel PHP framework for the backend API and React for 
 
 ## How to Run
 To run the notes app, first install all of the application's dependencies with the following command:
+
 `composer install && npm install`
+
 *Note:* You may need to update the above command if your composer or npm command paths are different.
 
 Next, you will need to configure the app. The below command will copy the sample environment variables file, create an empty sqlite database, create the necessary database table, and generate an ecryption key for Laravel:
