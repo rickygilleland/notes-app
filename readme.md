@@ -15,7 +15,7 @@ To run the notes app, first install all of the application's dependencies with t
 
 `composer install && npm install`
 
-*Note:* You may need to update the above command if your composer or npm command paths are different.
+*Note: You may need to update the above command if your composer or npm command paths are different.*
 
 Next, you will need to configure the app. The below command will copy the sample environment variables file, create an empty sqlite database, create the necessary database table, and generate an ecryption key for Laravel:
 
