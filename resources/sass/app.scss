@@ -1,0 +1,111 @@
+// Fonts
+@font-face {
+    font-family: 'Airbnb Cereal App';
+    src: url("fonts/AirbnbCereal-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Airbnb Cereal App';
+    src: url("fonts/AirbnbCereal-ExtraBold.ttf");
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Airbnb Cereal App';
+    src: url("fonts/AirbnbCereal-Light.ttf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Airbnb Cereal App';
+    src: url("fonts/AirbnbCereal-Medium.ttf");
+    font-weight: 600;
+}
+@font-face {
+	font-family: 'Airbnb Cereal App';
+    src: url("fonts/AirbnbCereal-Book.ttf");
+    font-weight: 400;
+}
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+	color: #fff;
+}
+
+.h1, h1 {
+	font-weight:600;
+}
+
+.h2, .h3, .h4, .h5, h2, h3, h4, h5 {
+	font-weight:700;
+}
+
+p {
+	white-space: pre-line;
+}
+
+.dark-background {
+	background-color: #121422;
+}
+
+.modal-content {
+	color: black;
+}
+
+svg {
+	color: #6d749c;
+}
+
+.btn svg {
+	color: #fff;
+}
+
+.btn-purple {
+	background-color: #6936e3;
+	color: white;
+}
+
+.btn-purple:hover {
+	background-color: #fff;
+	color: black;
+}
+
+.btn-primary {
+	background-color: #6936e3;
+	color: white;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #552cb6;
+	color: white;
+	border: none;
+}
+
+.btn-light, .btn-light:hover, .btn-light svg {
+	color: #6936e3;
+}
+
+.btn {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.card {
+	background: none;
+}
+
+.card-body {
+	background-color: #1b1e2f;
+}
+
+small, .small {
+	color: #6d7387;
+}
+
+hr {
+	border-top: 1px solid #6d7387;
+}
